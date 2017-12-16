@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6582255C6F7F9E91B57157 /* Pods_SkillupPractice13Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F69D18DB4CFE5EDC29BF63 /* Pods_SkillupPractice13Tests.framework */; };
+		9F51ED411FE499DA00EB0F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F51ED401FE499DA00EB0F29 /* Assets.xcassets */; };
+		9F51ED441FE499DA00EB0F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F51ED421FE499DA00EB0F29 /* LaunchScreen.storyboard */; };
+		9F51ED4F1FE499DA00EB0F29 /* SkillupPractice13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED4E1FE499DA00EB0F29 /* SkillupPractice13Tests.swift */; };
+		9F51ED5A1FE499DA00EB0F29 /* SkillupPractice13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED591FE499DA00EB0F29 /* SkillupPractice13UITests.swift */; };
+		9F51ED6E1FE49E1000EB0F29 /* Memo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F51ED691FE49E1000EB0F29 /* Memo.storyboard */; };
+		9F51ED6F1FE49E1000EB0F29 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED6A1FE49E1000EB0F29 /* MemoViewController.swift */; };
+		9F51ED701FE49E1000EB0F29 /* MemoList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F51ED6C1FE49E1000EB0F29 /* MemoList.storyboard */; };
+		9F51ED711FE49E1000EB0F29 /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED6D1FE49E1000EB0F29 /* MemoListViewController.swift */; };
+		9F51ED7D1FE49E1D00EB0F29 /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED731FE49E1D00EB0F29 /* RealmDaoHelper.swift */; };
+		9F51ED7E1FE49E1D00EB0F29 /* MemoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED751FE49E1D00EB0F29 /* MemoDAO.swift */; };
+		9F51ED7F1FE49E1D00EB0F29 /* MemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED761FE49E1D00EB0F29 /* MemoModel.swift */; };
+		9F51ED801FE49E1D00EB0F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED781FE49E1D00EB0F29 /* AppDelegate.swift */; };
+		9F51ED811FE49E1D00EB0F29 /* MemoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED7B1FE49E1D00EB0F29 /* MemoList.swift */; };
+		9F51ED821FE49E1D00EB0F29 /* MemoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED7C1FE49E1D00EB0F29 /* MemoListCell.swift */; };
+		9F51ED861FE49E4B00EB0F29 /* MemoDaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED841FE49E4B00EB0F29 /* MemoDaoTest.swift */; };
+		9F51ED871FE49E4B00EB0F29 /* MemoModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED851FE49E4B00EB0F29 /* MemoModelTest.swift */; };
+		9F51ED8B1FE4AA1000EB0F29 /* MemoListCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51ED8A1FE4AA1000EB0F29 /* MemoListCellTest.swift */; };
+		A8A88C0A3B023AB96CB85450 /* Pods_SkillupPractice13UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4B633A889237DCED7A3FF /* Pods_SkillupPractice13UITests.framework */; };
+		F0FC3746759D46D7FA2311BD /* Pods_SkillupPractice13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D2E81BE508ACA92A45CEC3 /* Pods_SkillupPractice13.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F51ED4B1FE499DA00EB0F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F51ED2E1FE499DA00EB0F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F51ED351FE499DA00EB0F29;
+			remoteInfo = SkillupPractice13;
+		};
+		9F51ED561FE499DA00EB0F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F51ED2E1FE499DA00EB0F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F51ED351FE499DA00EB0F29;
+			remoteInfo = SkillupPractice13;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D4B633A889237DCED7A3FF /* Pods_SkillupPractice13UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice13UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D2E81BE508ACA92A45CEC3 /* Pods_SkillupPractice13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2500AC1EF154CCBB778ABCE3 /* Pods-SkillupPractice13UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice13UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice13UITests/Pods-SkillupPractice13UITests.release.xcconfig"; sourceTree = "<group>"; };
+		344189587E434B7603E4C11A /* Pods-SkillupPractice13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice13.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice13/Pods-SkillupPractice13.debug.xcconfig"; sourceTree = "<group>"; };
+		55F8E60BEE55E2E877EAB385 /* Pods-SkillupPractice13Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice13Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice13Tests/Pods-SkillupPractice13Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74E9F2836D37A15E976FC476 /* Pods-SkillupPractice13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice13.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice13/Pods-SkillupPractice13.release.xcconfig"; sourceTree = "<group>"; };
+		78B9C949EB2AB258EB690E6A /* Pods-SkillupPractice13UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice13UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice13UITests/Pods-SkillupPractice13UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F51ED361FE499DA00EB0F29 /* SkillupPractice13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillupPractice13.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F51ED401FE499DA00EB0F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F51ED431FE499DA00EB0F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F51ED451FE499DA00EB0F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F51ED4A1FE499DA00EB0F29 /* SkillupPractice13Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillupPractice13Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F51ED4E1FE499DA00EB0F29 /* SkillupPractice13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillupPractice13Tests.swift; sourceTree = "<group>"; };
+		9F51ED501FE499DA00EB0F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F51ED551FE499DA00EB0F29 /* SkillupPractice13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillupPractice13UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F51ED591FE499DA00EB0F29 /* SkillupPractice13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillupPractice13UITests.swift; sourceTree = "<group>"; };
+		9F51ED5B1FE499DA00EB0F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F51ED691FE49E1000EB0F29 /* Memo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Memo.storyboard; sourceTree = "<group>"; };
+		9F51ED6A1FE49E1000EB0F29 /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		9F51ED6C1FE49E1000EB0F29 /* MemoList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoList.storyboard; sourceTree = "<group>"; };
+		9F51ED6D1FE49E1000EB0F29 /* MemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
+		9F51ED731FE49E1D00EB0F29 /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
+		9F51ED751FE49E1D00EB0F29 /* MemoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDAO.swift; sourceTree = "<group>"; };
+		9F51ED761FE49E1D00EB0F29 /* MemoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoModel.swift; sourceTree = "<group>"; };
+		9F51ED781FE49E1D00EB0F29 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F51ED7B1FE49E1D00EB0F29 /* MemoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoList.swift; sourceTree = "<group>"; };
+		9F51ED7C1FE49E1D00EB0F29 /* MemoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListCell.swift; sourceTree = "<group>"; };
+		9F51ED841FE49E4B00EB0F29 /* MemoDaoTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoDaoTest.swift; sourceTree = "<group>"; };
+		9F51ED851FE49E4B00EB0F29 /* MemoModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoModelTest.swift; sourceTree = "<group>"; };
+		9F51ED8A1FE4AA1000EB0F29 /* MemoListCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoListCellTest.swift; sourceTree = "<group>"; };
+		B0F69D18DB4CFE5EDC29BF63 /* Pods_SkillupPractice13Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillupPractice13Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9C6218F2178175E49E421A /* Pods-SkillupPractice13Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillupPractice13Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillupPractice13Tests/Pods-SkillupPractice13Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F51ED331FE499DA00EB0F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FC3746759D46D7FA2311BD /* Pods_SkillupPractice13.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51ED471FE499DA00EB0F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6582255C6F7F9E91B57157 /* Pods_SkillupPractice13Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51ED521FE499DA00EB0F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A88C0A3B023AB96CB85450 /* Pods_SkillupPractice13UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9EC3E9C98F1014E8ADA6B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D2E81BE508ACA92A45CEC3 /* Pods_SkillupPractice13.framework */,
+				B0F69D18DB4CFE5EDC29BF63 /* Pods_SkillupPractice13Tests.framework */,
+				03D4B633A889237DCED7A3FF /* Pods_SkillupPractice13UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F51ED2D1FE499DA00EB0F29 = {
+			isa = PBXGroup;
+			children = (
+				9F51ED381FE499DA00EB0F29 /* SkillupPractice13 */,
+				9F51ED4D1FE499DA00EB0F29 /* SkillupPractice13Tests */,
+				9F51ED581FE499DA00EB0F29 /* SkillupPractice13UITests */,
+				9F51ED371FE499DA00EB0F29 /* Products */,
+				E398F7A3FE171793C9344F72 /* Pods */,
+				2E9EC3E9C98F1014E8ADA6B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F51ED371FE499DA00EB0F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED361FE499DA00EB0F29 /* SkillupPractice13.app */,
+				9F51ED4A1FE499DA00EB0F29 /* SkillupPractice13Tests.xctest */,
+				9F51ED551FE499DA00EB0F29 /* SkillupPractice13UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F51ED381FE499DA00EB0F29 /* SkillupPractice13 */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED401FE499DA00EB0F29 /* Assets.xcassets */,
+				9F51ED671FE49E1000EB0F29 /* Controller */,
+				9F51ED721FE49E1D00EB0F29 /* Helper */,
+				9F51ED451FE499DA00EB0F29 /* Info.plist */,
+				9F51ED421FE499DA00EB0F29 /* LaunchScreen.storyboard */,
+				9F51ED741FE49E1D00EB0F29 /* Model */,
+				9F51ED771FE49E1D00EB0F29 /* Other */,
+				9F51ED791FE49E1D00EB0F29 /* View */,
+			);
+			path = SkillupPractice13;
+			sourceTree = "<group>";
+		};
+		9F51ED4D1FE499DA00EB0F29 /* SkillupPractice13Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED501FE499DA00EB0F29 /* Info.plist */,
+				9F51ED831FE49E4B00EB0F29 /* Model */,
+				9F51ED4E1FE499DA00EB0F29 /* SkillupPractice13Tests.swift */,
+				9F51ED891FE4A9FA00EB0F29 /* View */,
+			);
+			path = SkillupPractice13Tests;
+			sourceTree = "<group>";
+		};
+		9F51ED581FE499DA00EB0F29 /* SkillupPractice13UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED591FE499DA00EB0F29 /* SkillupPractice13UITests.swift */,
+				9F51ED5B1FE499DA00EB0F29 /* Info.plist */,
+			);
+			path = SkillupPractice13UITests;
+			sourceTree = "<group>";
+		};
+		9F51ED671FE49E1000EB0F29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED681FE49E1000EB0F29 /* Memo */,
+				9F51ED6B1FE49E1000EB0F29 /* MemoList */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F51ED681FE49E1000EB0F29 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED691FE49E1000EB0F29 /* Memo.storyboard */,
+				9F51ED6A1FE49E1000EB0F29 /* MemoViewController.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		9F51ED6B1FE49E1000EB0F29 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED6C1FE49E1000EB0F29 /* MemoList.storyboard */,
+				9F51ED6D1FE49E1000EB0F29 /* MemoListViewController.swift */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		9F51ED721FE49E1D00EB0F29 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED731FE49E1D00EB0F29 /* RealmDaoHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9F51ED741FE49E1D00EB0F29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED751FE49E1D00EB0F29 /* MemoDAO.swift */,
+				9F51ED761FE49E1D00EB0F29 /* MemoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F51ED771FE49E1D00EB0F29 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED781FE49E1D00EB0F29 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9F51ED791FE49E1D00EB0F29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED7A1FE49E1D00EB0F29 /* MemoList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F51ED7A1FE49E1D00EB0F29 /* MemoList */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED7B1FE49E1D00EB0F29 /* MemoList.swift */,
+				9F51ED7C1FE49E1D00EB0F29 /* MemoListCell.swift */,
+			);
+			path = MemoList;
+			sourceTree = "<group>";
+		};
+		9F51ED831FE49E4B00EB0F29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED841FE49E4B00EB0F29 /* MemoDaoTest.swift */,
+				9F51ED851FE49E4B00EB0F29 /* MemoModelTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F51ED891FE4A9FA00EB0F29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F51ED8A1FE4AA1000EB0F29 /* MemoListCellTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E398F7A3FE171793C9344F72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344189587E434B7603E4C11A /* Pods-SkillupPractice13.debug.xcconfig */,
+				74E9F2836D37A15E976FC476 /* Pods-SkillupPractice13.release.xcconfig */,
+				EC9C6218F2178175E49E421A /* Pods-SkillupPractice13Tests.debug.xcconfig */,
+				55F8E60BEE55E2E877EAB385 /* Pods-SkillupPractice13Tests.release.xcconfig */,
+				78B9C949EB2AB258EB690E6A /* Pods-SkillupPractice13UITests.debug.xcconfig */,
+				2500AC1EF154CCBB778ABCE3 /* Pods-SkillupPractice13UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F51ED351FE499DA00EB0F29 /* SkillupPractice13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F51ED5E1FE499DA00EB0F29 /* Build configuration list for PBXNativeTarget "SkillupPractice13" */;
+			buildPhases = (
+				CCA0215B28FA56CD1AB04281 /* [CP] Check Pods Manifest.lock */,
+				9F51ED321FE499DA00EB0F29 /* Sources */,
+				9F51ED331FE499DA00EB0F29 /* Frameworks */,
+				9F51ED341FE499DA00EB0F29 /* Resources */,
+				C62AE830A042556294F80348 /* [CP] Embed Pods Frameworks */,
+				39EAF74979681DA4555C531A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkillupPractice13;
+			productName = SkillupPractice13;
+			productReference = 9F51ED361FE499DA00EB0F29 /* SkillupPractice13.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F51ED491FE499DA00EB0F29 /* SkillupPractice13Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F51ED611FE499DA00EB0F29 /* Build configuration list for PBXNativeTarget "SkillupPractice13Tests" */;
+			buildPhases = (
+				AA6A42419131A76995050A0F /* [CP] Check Pods Manifest.lock */,
+				9F51ED461FE499DA00EB0F29 /* Sources */,
+				9F51ED471FE499DA00EB0F29 /* Frameworks */,
+				9F51ED481FE499DA00EB0F29 /* Resources */,
+				8FBBF2905710B0E58934E444 /* [CP] Embed Pods Frameworks */,
+				B462996D302D0D97A1635903 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F51ED4C1FE499DA00EB0F29 /* PBXTargetDependency */,
+			);
+			name = SkillupPractice13Tests;
+			productName = SkillupPractice13Tests;
+			productReference = 9F51ED4A1FE499DA00EB0F29 /* SkillupPractice13Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F51ED541FE499DA00EB0F29 /* SkillupPractice13UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F51ED641FE499DA00EB0F29 /* Build configuration list for PBXNativeTarget "SkillupPractice13UITests" */;
+			buildPhases = (
+				A2734B1864833692E89D44D4 /* [CP] Check Pods Manifest.lock */,
+				9F51ED511FE499DA00EB0F29 /* Sources */,
+				9F51ED521FE499DA00EB0F29 /* Frameworks */,
+				9F51ED531FE499DA00EB0F29 /* Resources */,
+				38E06422C667B86DCA928DE2 /* [CP] Embed Pods Frameworks */,
+				DBD7B5D977FAA5183ADF6739 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F51ED571FE499DA00EB0F29 /* PBXTargetDependency */,
+			);
+			name = SkillupPractice13UITests;
+			productName = SkillupPractice13UITests;
+			productReference = 9F51ED551FE499DA00EB0F29 /* SkillupPractice13UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F51ED2E1FE499DA00EB0F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = k_moto;
+				TargetAttributes = {
+					9F51ED351FE499DA00EB0F29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9F51ED491FE499DA00EB0F29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F51ED351FE499DA00EB0F29;
+					};
+					9F51ED541FE499DA00EB0F29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F51ED351FE499DA00EB0F29;
+					};
+				};
+			};
+			buildConfigurationList = 9F51ED311FE499DA00EB0F29 /* Build configuration list for PBXProject "SkillupPractice13" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F51ED2D1FE499DA00EB0F29;
+			productRefGroup = 9F51ED371FE499DA00EB0F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F51ED351FE499DA00EB0F29 /* SkillupPractice13 */,
+				9F51ED491FE499DA00EB0F29 /* SkillupPractice13Tests */,
+				9F51ED541FE499DA00EB0F29 /* SkillupPractice13UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F51ED341FE499DA00EB0F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F51ED701FE49E1000EB0F29 /* MemoList.storyboard in Resources */,
+				9F51ED6E1FE49E1000EB0F29 /* Memo.storyboard in Resources */,
+				9F51ED441FE499DA00EB0F29 /* LaunchScreen.storyboard in Resources */,
+				9F51ED411FE499DA00EB0F29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51ED481FE499DA00EB0F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51ED531FE499DA00EB0F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38E06422C667B86DCA928DE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice13UITests/Pods-SkillupPractice13UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39EAF74979681DA4555C531A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice13/Pods-SkillupPractice13-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FBBF2905710B0E58934E444 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice13Tests/Pods-SkillupPractice13Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2734B1864833692E89D44D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6A42419131A76995050A0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B462996D302D0D97A1635903 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice13Tests/Pods-SkillupPractice13Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62AE830A042556294F80348 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice13/Pods-SkillupPractice13-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA0215B28FA56CD1AB04281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD7B5D977FAA5183ADF6739 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillupPractice13UITests/Pods-SkillupPractice13UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F51ED321FE499DA00EB0F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F51ED7D1FE49E1D00EB0F29 /* RealmDaoHelper.swift in Sources */,
+				9F51ED821FE49E1D00EB0F29 /* MemoListCell.swift in Sources */,
+				9F51ED7E1FE49E1D00EB0F29 /* MemoDAO.swift in Sources */,
+				9F51ED6F1FE49E1000EB0F29 /* MemoViewController.swift in Sources */,
+				9F51ED811FE49E1D00EB0F29 /* MemoList.swift in Sources */,
+				9F51ED801FE49E1D00EB0F29 /* AppDelegate.swift in Sources */,
+				9F51ED711FE49E1000EB0F29 /* MemoListViewController.swift in Sources */,
+				9F51ED7F1FE49E1D00EB0F29 /* MemoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51ED461FE499DA00EB0F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F51ED861FE49E4B00EB0F29 /* MemoDaoTest.swift in Sources */,
+				9F51ED871FE49E4B00EB0F29 /* MemoModelTest.swift in Sources */,
+				9F51ED4F1FE499DA00EB0F29 /* SkillupPractice13Tests.swift in Sources */,
+				9F51ED8B1FE4AA1000EB0F29 /* MemoListCellTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51ED511FE499DA00EB0F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F51ED5A1FE499DA00EB0F29 /* SkillupPractice13UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F51ED4C1FE499DA00EB0F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F51ED351FE499DA00EB0F29 /* SkillupPractice13 */;
+			targetProxy = 9F51ED4B1FE499DA00EB0F29 /* PBXContainerItemProxy */;
+		};
+		9F51ED571FE499DA00EB0F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F51ED351FE499DA00EB0F29 /* SkillupPractice13 */;
+			targetProxy = 9F51ED561FE499DA00EB0F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F51ED421FE499DA00EB0F29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F51ED431FE499DA00EB0F29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F51ED5C1FE499DA00EB0F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F51ED5D1FE499DA00EB0F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F51ED5F1FE499DA00EB0F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344189587E434B7603E4C11A /* Pods-SkillupPractice13.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SkillupPractice13/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F51ED601FE499DA00EB0F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E9F2836D37A15E976FC476 /* Pods-SkillupPractice13.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SkillupPractice13/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F51ED621FE499DA00EB0F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9C6218F2178175E49E421A /* Pods-SkillupPractice13Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkillupPractice13Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice13Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillupPractice13.app/SkillupPractice13";
+			};
+			name = Debug;
+		};
+		9F51ED631FE499DA00EB0F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F8E60BEE55E2E877EAB385 /* Pods-SkillupPractice13Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkillupPractice13Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice13Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillupPractice13.app/SkillupPractice13";
+			};
+			name = Release;
+		};
+		9F51ED651FE499DA00EB0F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B9C949EB2AB258EB690E6A /* Pods-SkillupPractice13UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SkillupPractice13UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkillupPractice13;
+			};
+			name = Debug;
+		};
+		9F51ED661FE499DA00EB0F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2500AC1EF154CCBB778ABCE3 /* Pods-SkillupPractice13UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SkillupPractice13UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.SkillupPractice13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SkillupPractice13;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F51ED311FE499DA00EB0F29 /* Build configuration list for PBXProject "SkillupPractice13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F51ED5C1FE499DA00EB0F29 /* Debug */,
+				9F51ED5D1FE499DA00EB0F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F51ED5E1FE499DA00EB0F29 /* Build configuration list for PBXNativeTarget "SkillupPractice13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F51ED5F1FE499DA00EB0F29 /* Debug */,
+				9F51ED601FE499DA00EB0F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F51ED611FE499DA00EB0F29 /* Build configuration list for PBXNativeTarget "SkillupPractice13Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F51ED621FE499DA00EB0F29 /* Debug */,
+				9F51ED631FE499DA00EB0F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F51ED641FE499DA00EB0F29 /* Build configuration list for PBXNativeTarget "SkillupPractice13UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F51ED651FE499DA00EB0F29 /* Debug */,
+				9F51ED661FE499DA00EB0F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F51ED2E1FE499DA00EB0F29 /* Project object */;
+}
